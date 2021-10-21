@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+/*COLORS*/
+
+.color-1 {color: #62b8ff;}
+.color-2 {color: #fffa62;}
+.color-3 {color: #ffe1b5;}
+.color-4 {color: #ffba57;}
+.color-5 {color: #6dd7fe;}
+.color-6 {color: #33c7ff;}
+
+.inner-img{
+  max-height: 40em;
+}
+
+*::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+  background: #6dd7fe;
+  border-radius: 5px;
+}
+
+
+*::-webkit-scrollbar:hover{
+  background: #ffba57;
+  box-shadow: 0 0 2px 1px #6dd7fe;
+}
+
+a{
+  text-decoration: none;
+  color: #6dd7fe;
+}
+
+a:hover{
+  color: #ffba57
+}
+
+*::selection{
+  background: #62b8ff;
+  color: #fffa62;
+}
+
+div i{
+  font-size: xx-large;
+  transition: .5s;
+  color: #33c7ff;
+}
+
+/*ABOUT US*/
+.about{
+  height: 15em;
+  max-height: 25em;
+  width: 50em;
+  max-width: 25em;
+}
+
+div p{
+  text-align: justify;
+}
+
+ul li{
+  list-style: none;
+}
+
+/*SHAPES*/
+.custom-shape-divider-top-1634663421 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1634663421 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 10em);
+  height: 5em;
+}
+
+.custom-shape-divider-top-1634663421 .shape-fill {
+  fill: #6DD7FE;
+}
+
