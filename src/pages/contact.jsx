@@ -1,12 +1,11 @@
 import React, { Fragment } from 'react'
 import '../App.css'
-import contact2 from '../assets/contact2.jpg'
 
 function Contact(params) {
     return(
         <Fragment>
-            <div className="container img-contact" id="contact">
-                <form className="row g-3">
+            <div className="container-fluid img-contact" id="contact">
+                <form className="row g-3 form">
                 <div className="mb-3">
                     <label for="exampleFormControlInput1" className="form-label text-black">Email</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
